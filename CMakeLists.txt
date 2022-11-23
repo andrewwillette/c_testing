@@ -29,3 +29,6 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.c)
 
 add_executable(testy ${sources})
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
