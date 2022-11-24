@@ -1,6 +1,5 @@
 #include "gtest/gtest.h"
 
-
 extern "C" {
 #include "ctesting/customer.h"
 }
