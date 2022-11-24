@@ -2,13 +2,13 @@
 
 
 extern "C" {
-#include "testy/widget.h"
+#include "ctesting/widget.h"
 }
 
 TEST(WIDGET, ok) {
   ASSERT_EQ(widget_ok(1, 1), 1);
 }
 
-TEST(testy, not_ok) {
+TEST(WIDGET, not_ok) {
   ASSERT_EQ(widget_ok(1,2), 0);
 }

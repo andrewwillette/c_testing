@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 
-project(testy)
-
+project(ctesting)
 
 ##
 ### Test definitions ###
@@ -28,7 +27,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.c)
 
-add_executable(testy ${sources})
+add_executable(ctesting ${sources})
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
